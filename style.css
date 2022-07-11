@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+    
+    flex-flow: wrap;
+}
+.testimonial-col{
+    width: 300px;
+    height: 700px;
+    background: white;
+    margin: 20px;
+    box-sizing: border-box;
+   
+}
+.testimonial-col h3{
+    text-align: center;
+    font-style: bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.parent p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    font-size: 17px;
+}
+@media screen and(max-width:1200px) {
+    .box{
+        width: 40%;
+    }
+    
+}
+@media screen and(max-width:600px) {
+    .box{
+        width: 90%;
+    }
+    
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 150px;
+    
+}
+.hero-btn:hover{
+    border:  1px solid blue;
+    background: skyblue;
+    transition: 1s;
+}
+.red-btn{
+    border: 1px solid white;
+    background: transparent;
+    color:blue;
+    font-weight: bold;
+    font-size: 20px;
+    
+   
+}
+.new{
+    display: inline-block;
+    background-color: rgb(223, 244, 252);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 150px;
+    width: 180px;
+    
+}
+.parent{
+    text-align: center;
+}
+
+ 
+.new h4{
+    color: blue;
+}
